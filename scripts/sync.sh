@@ -27,7 +27,7 @@ function mongodb_dump
   else
     echo "🔴 MongoDB dump failed"
     exit 1
-  fi
+  
 
   # Compress
   tar -zcvf $FILE $DIR
